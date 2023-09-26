@@ -1,0 +1,21 @@
+main {
+    width: 50%;
+    margin: 50px auto; 
+    /* auto to center */
+    text-align: center;
+}
+
+table {
+    margin: 50px auto ;
+
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid rgb(0, 0, 0);
+    /* Specify the border color separately */
+}
+
+th, td {
+    padding: 5px;
+}

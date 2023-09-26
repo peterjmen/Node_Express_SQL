@@ -1,0 +1,44 @@
+<!-- shift + 1 then enter = boiler plate -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pete's CRUD web app</title>
+    <!-- link relationshio -->
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <main>
+        <label>Name:</label>
+        <input type="text" id="name-input">
+        <button id="add-name-btn">Add Name</button>
+        
+        <!-- break points is like line space -->
+        <br><br><br>
+        <div>
+        <!-- Div is like new line -->
+            <input placeholder="search by name"
+                   id = "search-input">
+            <button id="search-btn ">Search</button>
+        </div>
+
+        <div>
+            <table id="table">
+                <thead>
+                    <!-- th*5 -->
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Date Added</th>
+                    <th>Delete</th>
+                    <th>Edit</th>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
